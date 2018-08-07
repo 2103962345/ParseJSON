@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ParseJSON</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Текст</string>
+    <string name="next">Дальше</string>
+    <string name="advanced_description">Развернуть</string>
+</resources>

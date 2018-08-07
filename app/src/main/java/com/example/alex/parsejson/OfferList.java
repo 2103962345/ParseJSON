@@ -20,21 +20,7 @@ public class OfferList {
 
     private OfferList(Context context) {
         mOffers = new ArrayList<>();
-   /*         Offer offer = new Offer();
-            offer.setTitle("Crime #");
-            offer.setDescription("  121");
-            offer.setAdvancedDescription("  121");
-            mOffers.add(offer);
-        Offer offer2 = new Offer();
-        offer.setTitle("Crime #");
-        offer.setDescription("  121");
-        offer.setAdvancedDescription("  121");
-        mOffers.add(offer2);
-        Offer offer3 = new Offer();
-        offer.setTitle("Crime #");
-        offer.setDescription("  121");
-        offer.setAdvancedDescription("  121");
-        mOffers.add(offer3);*/
+   
 
     }
 

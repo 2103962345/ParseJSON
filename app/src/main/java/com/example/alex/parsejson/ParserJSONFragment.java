@@ -16,8 +16,6 @@ import java.util.List;
 
 public class ParserJSONFragment extends Fragment {
     private RecyclerView mOfferRecyclerView;
-   // List<Offer> offers;
-    //private List<Offer> mItems = new ArrayList<>();
     private OfferAdapter mAdapter;
     public static ParserJSONFragment newInstance() {
         return new ParserJSONFragment();
@@ -77,9 +75,7 @@ public class ParserJSONFragment extends Fragment {
         }
         @Override
         public void onClick(View v) {
-            //Intent i = new Intent(getActivity(),OfferActivity.class);
             Intent i = OfferActivity.newIntent(getActivity(), mOffer.getUId());
-            //i.putExtra("offer_id",mOffer.getId());
             startActivity(i);
         }
     }

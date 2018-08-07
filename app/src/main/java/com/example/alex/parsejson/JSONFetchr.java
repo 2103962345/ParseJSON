@@ -68,22 +68,7 @@ private String uurl="http://cashadvanceapp.pp.ua/json/example.json";
 
         return items;
     }
-
-  /*  public static String convertStandardJSONString(String data_json){
-        data_json = data_json.replaceAll("\\\\r\\\\n","");
-        data_json = data_json.replace(",\"{","{");
-        data_json = data_json.replace("}\",","},");
-        data_json = data_json.replace("}\"","}");
-        String s[] = data_json.split("}");
-        for(String ss: s){
-            ss.substring(0,ss.lastIndexOf(","));
-        }
-        data_json="";
-        for(String ss:s){
-            data_json+=ss+"}";
-        }
-        return data_json;
-    }*/
+    
     private void parseItems(List<Offer> items, JSONObject jsonBody)
             throws IOException, JSONException {
 
